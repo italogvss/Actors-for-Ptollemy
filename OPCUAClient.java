@@ -1,13 +1,4 @@
-/* An actor that implements an OPC-UA client reading a value from a server.
 
- build with: javac -source 1.8 -target 1.8 -cp "../../..;../../../lib/eclipse-milo/*;../../../lib/GSSFramework/*" -g -O ./OPCUAClient.java
-
- Check JVM version: javap -v OPCUAClient.class |findstr major
-
- Copyright (c) 2023 Itaipu Binacional - OP.DT/GSS
-
- 
- */
 package ptolemy.actor.lib;
 
 import java.util.List;
